@@ -10,7 +10,7 @@ public class Clase1 {
 
         Scanner entrada = new Scanner(System.in);
 
-        String pepe;
+        String nombre;
 
         System.out.println("Ingrese su nombre: ");
         nombre = entrada.nextLine();
