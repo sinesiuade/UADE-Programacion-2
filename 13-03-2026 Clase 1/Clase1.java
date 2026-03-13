@@ -16,5 +16,8 @@ public class Clase1 {
             numero = Input.inputIntTexto("Ingrese un numero (0 para salir): ");
             Print.println("El numero ingresado es: " + numero);
         } while (numero != 0);
+
+        Auto auto = new Auto("Volkswagen", "Up!", "Gris", 5);
+        Print.println(auto.toString());
     }
 }
