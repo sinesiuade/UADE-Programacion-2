@@ -15,5 +15,12 @@ public class Clase1 {
         System.out.println("Ingrese su nombre: ");
         nombre = entrada.nextLine();
         System.out.println("Hola " + nombre);
+
+        int numero;
+        do {
+            System.out.println("Ingrese un numero (0 para salir): ");
+            numero = entrada.nextInt();
+            System.out.println("El numero ingresado es: " + numero);
+        }while(numero != 0);
     }
 }
