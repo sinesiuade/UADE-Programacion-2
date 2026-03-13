@@ -8,19 +8,15 @@ public class Clase1 {
         // Salida por terminal o consola de un texto
         System.out.println("Hello, Word!");
 
-        Scanner entrada = new Scanner(System.in);
-
         String nombre;
 
-        System.out.println("Ingrese su nombre: ");
-        nombre = entrada.nextLine();
+        nombre = Input.inputStrTexto("Ingrese su nombre: ");
         System.out.println("Hola " + nombre);
 
         int numero;
         do {
-            System.out.println("Ingrese un numero (0 para salir): ");
-            numero = entrada.nextInt();
+            numero = Input.inputIntTexto("Ingrese un numero (0 para salir): ");
             System.out.println("El numero ingresado es: " + numero);
-        }while(numero != 0);
+        } while (numero != 0);
     }
 }
