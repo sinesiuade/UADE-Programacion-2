@@ -1,9 +1,6 @@
 import java.util.Scanner;
 
 public class Input {
-    public static void main(String[] args) {
-    }
-
     public static int inputInt() {
         Scanner scanner = new Scanner(System.in);
         int input = scanner.nextInt();
