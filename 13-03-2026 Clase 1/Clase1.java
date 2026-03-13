@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class Clase1 {
     /*
      * Este es el típico hola mundo que usamos cuando comenzamos un nuevo lenguaje
