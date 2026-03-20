@@ -3,27 +3,23 @@ import java.util.Scanner;
 public class Input {
     public static int inputInt() {
         Scanner scanner = new Scanner(System.in);
-        int input = scanner.nextInt();
-        return input;
+        return scanner.nextInt();
     }
 
     public static int inputIntTexto(String texto) {
         System.out.println(texto);
         Scanner scanner = new Scanner(System.in);
-        int input = scanner.nextInt();
-        return input;
+        return scanner.nextInt();
     }
 
     public static String inputStr() {
         Scanner scanner = new Scanner(System.in);
-        String input = scanner.nextLine();
-        return input;
+        return scanner.nextLine();
     }
 
     public static String inputStrTexto(String texto) {
         System.out.println(texto);
         Scanner scanner = new Scanner(System.in);
-        String input = scanner.nextLine();
-        return input;
+        return scanner.nextLine();
     }
 }
