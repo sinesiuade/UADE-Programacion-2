@@ -1,13 +1,15 @@
+package model;
+
 import interfaces.I_Persona;
 
 public class Persona implements I_Persona {
     private String nombre;
-    private String dni;
+    private Integer dni;
     private String fechaNacimiento;
     private String genero;
     private String nacionalidad;
 
-    public Persona(String nombre, String dni, String fechaNacimiento, String genero, String nacionalidad) {
+    public Persona(String nombre, Integer dni, String fechaNacimiento, String genero, String nacionalidad) {
         this.nombre = nombre;
         this.dni = dni;
         this.fechaNacimiento = fechaNacimiento;
@@ -21,7 +23,7 @@ public class Persona implements I_Persona {
     }
 
     @Override
-    public String getDNI() {
+    public Integer getDNI() {
         return dni;
     }
 

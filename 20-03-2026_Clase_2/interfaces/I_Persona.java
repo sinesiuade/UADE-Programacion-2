@@ -1,9 +1,11 @@
+package interfaces;
+
 public interface I_Persona {
     String toString();
 
     String getNombre();
 
-    String getDNI();
+    Integer getDNI();
 
     String getFechaNacimiento();
 
