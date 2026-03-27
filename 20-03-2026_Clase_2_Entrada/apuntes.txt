@@ -1,6 +1,0 @@
-Tipos de datos abstractos
-
-Interfaz, por ejemplo, es algo que me dice que estructura va a tener el elemento.
-
-Pila: Se toma del último valor al mas viejo
-
